@@ -6,8 +6,8 @@ void Check(string pawn_move, int c[][2])
 {
     int errorCheck = 1;
     while (errorCheck) {
-        cout « endl « "Сделайте ход: ";
-        cin » pawn_move;
+        cout << endl << "Сделайте ход: ";
+        cin >> pawn_move;
         switch (pawn_move[0]) {
         case 'a':
             c[0][0] = 1;
@@ -34,7 +34,7 @@ void Check(string pawn_move, int c[][2])
             c[0][0] = 8;
             break;
         default:
-            cout « "Ошибка";
+            cout << "Ошибка";
             errorCheck = 0;
         }
 
@@ -65,13 +65,13 @@ void Check(string pawn_move, int c[][2])
                 c[0][1] = 0;
                 break;
             default:
-                cout « "Ошибка";
+                cout << "Ошибка";
                 errorCheck = 0;
             }
 
         if (errorCheck == 1)
             if (pawn_move[2] != '-') {
-                cout « "Ошибка";
+                cout << "Ошибка";
                 errorCheck = 0;
             }
 
@@ -102,7 +102,7 @@ void Check(string pawn_move, int c[][2])
                 c[1][0] = 8;
                 break;
             default:
-                cout « "Ошибка";
+                cout << "Ошибка";
                 errorCheck = 0;
             }
 
@@ -133,7 +133,7 @@ void Check(string pawn_move, int c[][2])
                 c[1][1] = 0;
                 break;
             default:
-                cout « "Ошибка";
+                cout << "Ошибка";
                 errorCheck = 0;
             }
         errorCheck = 0;
