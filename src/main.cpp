@@ -24,7 +24,7 @@ int main()
         if ((chessviz[c[0][1]][c[0][0]] == 'P')
             || (chessviz[c[0][1]][c[0][0]] == 'p'))
             Move_pawn(chessviz, c);
-        cout « endl « endl;
+        cout << endl << endl;
         Print_board(chessviz);
     }
     return 0;
