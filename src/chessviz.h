@@ -3,4 +3,6 @@
 #include <iostream>
 using namespace std;
 
-#endif 
+void Print_board(char chessviz[][9]);
+
+#endif
