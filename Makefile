@@ -1,2 +1,5 @@
-all: Chessviz.cpp
-	gcc -g -Wall -o Chessviz Chessviz.cpp
+all: lounch
+comp:	Chessviz.cpp
+	gcc -Wall -o Chessviz Chessviz.cpp
+lounch: comp
+	./Chessviz
