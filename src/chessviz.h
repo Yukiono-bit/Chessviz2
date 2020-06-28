@@ -4,5 +4,6 @@
 using namespace std;
 
 void Print_board(char chessviz[][9]);
+void Check(string pawn_move, int c[][2]);
 
 #endif
