@@ -17,6 +17,15 @@ int main()
                {'1', 'R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'},
                {' ', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'}};
     Print_board(chessviz);
-
+    int c[2][2];
+    string pawn_move;
+    while (1) {
+        Check(pawn_move, c);
+        if ((chessviz[c[0][1]][c[0][0]] == 'P')
+            || (chessviz[c[0][1]][c[0][0]] == 'p'))
+            Move_pawn(chessviz, c);
+        cout « endl « endl;
+        Print_board(chessviz);
+    }
     return 0;
 }
