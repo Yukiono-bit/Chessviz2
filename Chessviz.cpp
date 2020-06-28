@@ -13,7 +13,6 @@ int main()
                {'2', 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
                {'1', 'R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'},
                {' ', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'}};
-    int i, j;
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
             cout << chess[i][j];
